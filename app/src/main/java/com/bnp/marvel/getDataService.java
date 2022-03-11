@@ -6,6 +6,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface getDataService {
-    @GET("characters")
+    @GET("/v1/public/characters/")
     Call<List<modelapi>> getAllPhotos();
 }

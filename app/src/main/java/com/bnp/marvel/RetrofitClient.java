@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitClient {
 
     private static Retrofit retrofit;
-    private static final String BASE_URL = "http://gateway.marvel.com/v1/public/characters/";
+    private static final String BASE_URL = "http://gateway.marvel.com";
     private static final String public_key = "ee1534f792382107c97327fcf2525679";
     private static final String private_key = "5e09bef6839eb5961c15459c58ab8643854986a9";
 
